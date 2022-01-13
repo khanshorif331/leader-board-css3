@@ -102,38 +102,36 @@ hr {
   color: #aeaeae;
 }
 
-
-
 /* Media Query */
 
-
 /* Mobile Devices */
-@media only screen and (max-width:688px) {
-  .container{
+@media only screen and (max-width: 688px) {
+  .container {
     width: 100%;
   }
-  .players, .blogs, .courses{
-  grid-template-columns: repeat(1,1fr);
-}
-.player, .blog{
-  flex-direction: column;
-}
-.players{
-  background-color: red;
-}
-
-
-/* Tablet Devices */
-
-@media only screen and (min-width:688px) and (max-width:992px) {
-  .players{
+  .players,
+  .blogs,
+  .courses {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player,
+  .blog {
+    flex-direction: column;
+  }
+  .players {
     background-color: red;
   }
-  .players{
+}
+/* Tablet Devices */
+
+@media only screen and (min-width: 690px), only screen and (max-width: 1000px) {
+  .players {
+    background-color: blue;
+  }
+  .players {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+  .blogs {
+    background-color: red;
+  }
 }
-
-
-
