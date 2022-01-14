@@ -3,6 +3,7 @@
 
 /* common styles or utilities*/
 body {
+  margin: 0;
   font-family: "Merriweather Sans", sans-serif;
   font-family: "Poppins", sans-serif;
   background-color: #f3f1ff;
@@ -22,6 +23,26 @@ main {
 hr {
   border: 1px solid #d1d1d1;
   margin-bottom: 27px;
+}
+
+/* header */
+nav {
+  background-color: #562eff;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+}
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
 }
 /* top players style */
 .top-players {
